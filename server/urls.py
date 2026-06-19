@@ -8,4 +8,10 @@ urlpatterns = [
     path("logout-demo", views.demo_logout),
     path("admin/", admin.site.urls),
     path("djangoapp/", include("djangoapp.urls")),
+
+    path("fetchDealers", views.get_all_dealers),
+    path("fetchDealer/<int:dealer_id>", views.get_dealer),
+    path("fetchDealers/<str:state>", views.get_dealers_by_state),
+    path("fetchReviews/dealer/<int:dealer_id>", views.get_reviews),
+    path("analyze/<str:text>", views.analyze),
 ]

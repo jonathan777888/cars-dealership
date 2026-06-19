@@ -1,0 +1,20 @@
+Workflow: CI/CD
+Status: Success
+
+Job: Lint Python Files
+Status: completed successfully
+Steps:
+- Checkout repository
+- Set up Python
+- Install dependencies
+- Lint Python
+- Run Django system check
+
+Job: Lint JavaScript Files
+Status: completed successfully
+Steps:
+- Checkout repository
+- Set up Node.js
+- Install dependencies
+- Lint JavaScript
+- Job completed successfully

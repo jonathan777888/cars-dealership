@@ -1,0 +1,2 @@
+curl -s -X POST http://127.0.0.1:8000/djangoapp/analyze_review_sentiments -d "review=Fantastic services"
+{"review": "Fantastic services", "sentiment": "positive", "score": 0.97}

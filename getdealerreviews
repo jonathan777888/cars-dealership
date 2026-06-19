@@ -1,0 +1,2 @@
+curl -s http://127.0.0.1:8000/djangoapp/get_dealer_reviews/1
+{"dealer_id": 1, "reviews": [{"id": 1, "dealership": 1, "name": "Alice", "review": "Fantastic services", "purchase": true, "sentiment": "positive"}, {"id": 2, "dealership": 1, "name": "Brian", "review": "Friendly staff and fast service", "purchase": true, "sentiment": "positive"}]}

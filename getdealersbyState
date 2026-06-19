@@ -1,0 +1,2 @@
+curl -s http://127.0.0.1:8000/djangoapp/get_dealers/Kansas
+{"state": "Kansas", "dealers": [{"id": 1, "full_name": "Best Cars Kansas", "city": "Wichita", "state": "Kansas", "address": "100 Main Street", "zip": "67202"}, {"id": 2, "full_name": "Auto World Kansas", "city": "Topeka", "state": "Kansas", "address": "200 Market Street", "zip": "66603"}]}

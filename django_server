@@ -1,1 +1,17 @@
-python3: can't open file '/workspaces/cars-dealership/manage.py': [Errno 2] No such file or directory
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+June 19, 2026 - 14:38:46
+Django version 6.0.6, using settings 'server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.0/howto/deployment/
+Not Found: /favicon.ico
+[19/Jun/2026 14:38:56] "GET /favicon.ico HTTP/1.1" 404 2208
+[19/Jun/2026 14:39:01] "GET / HTTP/1.1" 200 12068
